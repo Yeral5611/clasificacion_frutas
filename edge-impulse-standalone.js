@@ -1675,7 +1675,7 @@ var tempI64;
 var ASM_CONSTS = {
   
 };
-function hardware_concurrency(){ var concurrency = 1; try { concurrency = self.navigator.hardwareConcurrency; } catch(e) { } return concurrency; }
+
 
 
 
@@ -6768,7 +6768,6 @@ var asmLibraryArg = {
   "fd_seek": _fd_seek,
   "fd_write": _fd_write,
   "getentropy": _getentropy,
-  "hardware_concurrency": hardware_concurrency,
   "setTempRet0": _setTempRet0
 };
 var asm = createWasm();
